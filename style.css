@@ -213,6 +213,9 @@ body {
 }
 
 .promo__input__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 218px;
     height: 48px;
     background-color: #fff;
@@ -221,6 +224,7 @@ body {
     font-weight: 700;
     color: rgba(31, 34, 41, 1);
     margin-top: 32px;
+    cursor: pointer;
 }
 
 .promo__input__details {
@@ -268,4 +272,143 @@ body {
     font-size: 20px;
     font-weight: 400;
     color: white;
+}
+
+/* store */
+
+.store {
+    padding-top: 150px;
+    background-color: #1F2229;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 118px;
+}
+
+.store__aside {
+    max-width: 513px;
+}
+
+.store__aside__h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.store__aside__p {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 30px;
+}
+
+.store__aside__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 218px;
+    height: 48px;
+    background-color: #fff;
+    border-radius: 48px;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(31, 34, 41, 1);
+    margin-top: 48px;
+    cursor: pointer;
+}
+
+.store__img {
+    width: 359px;
+    height: 373px;
+    margin-right: 100px;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2229;
+    padding-top: 150px;
+}
+
+.footer__section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.footer__section__nav {
+    display: flex;
+    gap: 4px;
+    padding-left: 20px;
+}
+
+.footer__section__nav__img {
+    width: 40px;
+    height: 40px;
+}
+
+.footer__section__sixteen {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.footer__section__sixteen__text {
+    font-size: 13px;
+    color: white;
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+.footer__section__sixteen_img {
+    width: 32px;
+    height: 32px;
+}
+
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+}
+
+.footer__bottom__tele2 {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.footer__bottom__tele2__img {
+    width: 79px;
+    height: 30px;
+}
+
+.footer__bottom__tele2__p {
+    color: rgba(255, 255, 255, 0.5);
+    font-style: 16px;
+    font-weight: 400;
+}
+
+.footer__bottom__chulakov {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.footer__bottom__chulakov__p {
+    color: rgba(255, 255, 255, 0.5);
+    font-style: 16px;
+    font-weight: 400;
+}
+
+.footer__bottom__chulakov__img {
+    width: 140px;
+    height: 16px;
 }
